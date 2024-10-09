@@ -20,6 +20,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
+          sparse-checkout: .
           # choose pnpm version to use
           version: 8
           # install deps with pnpm
